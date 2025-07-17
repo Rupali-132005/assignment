@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "type": "shell",
+      "command": "C:/msys64/ucrt64/bin/g++.exe",
+      "args": [
+        "-std=c++17",
+        "-g",
+        "main.cpp",
+        "models/State.cpp",
+        "models/Action.cpp",
+        "models/WorkflowDefinition.cpp",
+        "models/WorkflowInstance.cpp",
+        "services/WorkflowService.cpp",
+        "-o",
+        "main.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

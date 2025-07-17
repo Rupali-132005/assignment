@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch with GDB",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/workflow.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "externalTerminal",
+      "preLaunchTask": "build"
+    }
+  ]
+}
