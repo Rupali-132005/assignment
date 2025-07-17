@@ -8,10 +8,10 @@ A minimal backend service in **.NET 8 / C#** that allows defining and executing 
 
 This API enables clients to:
 
-- ✅ Define workflows as state machines (states + transitions/actions)
-- ✅ Start workflow instances
-- ✅ Execute transitions with validation
-- ✅ Inspect definitions and instance state/history
+- Define workflows as state machines (states + transitions/actions)
+- Start workflow instances
+- Execute transitions with validation
+- Inspect definitions and instance state/history
 
 ---
 
@@ -43,7 +43,7 @@ ConfigurableWorkflowEngine/
 
 ---
 
-## 🛠 Technology Stack
+ Technology Stack
 
 - **Language:** C#
 - **Framework:** ASP.NET Core (.NET 8)
@@ -53,9 +53,9 @@ ConfigurableWorkflowEngine/
 
 ---
 
-## ⚙️ Running the API
+ Running the API
 
-### 🧾 Prerequisites
+ Prerequisites
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 
